@@ -109,3 +109,10 @@ footer {
 #lastModified {
     color: rgb(255, 255, 0);
 }
+
+/* This style will be deleted in the end */
+.error-container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+}
