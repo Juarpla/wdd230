@@ -106,3 +106,7 @@ footer {
     margin-left: 15px;
 }
 
+#lastModified {
+    color: rgb(255, 255, 0);
+}
+
