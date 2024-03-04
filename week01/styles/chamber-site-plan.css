@@ -1,0 +1,20 @@
+.plan {
+    margin: 1rem 2vw;
+}
+
+.plan h3 {
+    margin-top: 1rem;
+} 
+
+.plan p {
+    margin: 1rem;
+}
+
+.plan ul {
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.plan li {
+    margin-bottom: 1rem;
+}

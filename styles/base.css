@@ -20,6 +20,10 @@ header {
     column-gap: 20px;
 }
 
+header img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 header, main {
     margin: 0 auto;
     max-width: 900px;
@@ -37,14 +41,14 @@ nav ul {
 
 nav a {
     display: block;
-    color: rgb(255, 255, 255);;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: rgba(177, 129, 103, 0.3) !important;
+    background-color: rgba(177, 129, 103, 0.3);
 }
 
 nav .active {
@@ -54,7 +58,7 @@ nav .active {
 h1 {
     font-size: 2rem;
     margin: 1rem 2vw;
-    border-bottom: 1px solid rgba(0, 0, 0, 1);;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .parent {
