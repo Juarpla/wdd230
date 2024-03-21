@@ -12,7 +12,7 @@ body {
 header {
     background-color: rgb(20, 33, 61);
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,20 +21,33 @@ header {
     position: relative;
 }
 
-header img {
+#spanHead {
+    padding-right: 2.5rem;
+}
+
+#spanHead span {
+    font-weight: 600;
+}
+
+#spanHead p {
+    font-size: 1rem;
+}
+
+#spanHead img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header,
 main {
     margin: 0 auto;
-    max-width: 1200px;
+
 }
 
 main {
     padding: 0.1rem 0;
     border-radius: 10px;
     overflow: hidden;
+    max-width: 1200px;
 }
 
 #mode {
@@ -100,15 +113,19 @@ nav .active {
     background-color: rgba(99, 50, 24, 1);
 }
 
-h1 {
-    font-size: 2rem;
-    margin: 1rem 2vw;
-    display: inline-block;
-    border-bottom: 1px solid rgba(0, 0, 0, 1)
+.hero {
+    position: relative;
+    height: auto;
 }
 
-aside {
-    margin: 1rem 2vw;
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    display: none;
 }
 
 .parent {
@@ -131,28 +148,43 @@ aside {
 
 .child {
     padding: 10px;
+    line-height: 2;
+}
+
+#localWhether {
+    text-align: center;
 }
 
 .call {
     padding: 10px;
     margin: 10px;
     cursor: pointer;
+    background-color: rgb(252,163,17);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.call a {
+    text-decoration: none;
+    color: rgb(20, 33, 61);
+    font-weight: 600;
 }
 
-#information {
-    text-align: center;
-    line-height: 2;
+#join {
+    position: absolute;
+    top: 28%;
+    right: 28%;
+    transform: translateX(+4%);
 }
 
 footer {
     margin: 0 auto;
-    max-width: 1200px;
     text-align: center;
     line-height: 2;
     background-color: rgb(20, 33, 61);
     color: rgb(255, 255, 255);
     padding: 1rem;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     overflow: hidden;
 }
 
@@ -169,11 +201,4 @@ footer {
 
 #lastModified {
     color: rgb(255, 255, 255);
-}
-
-/* This style will be deleted in the end */
-.error-container {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-bottom: 10px;
 }

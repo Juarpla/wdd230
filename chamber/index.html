@@ -24,7 +24,10 @@
 <body>
     <header>
         <img src="images/chamberLogo.jpg" alt="Chamber of Commerce Logo">
-        <span>Magdalena del Mar<br><p>Chamber of Commerce</p></span>
+        <div id="spanHead">
+            <span>Magdalena del Mar<br></span>
+            <p>Chamber of Commerce</p>
+        </div>
         <div id="mode">🌙</div>
         <button id="menu" title="Menu"></button>
     </header>
@@ -37,68 +40,79 @@
         </ul>
     </nav>
     <main>
-        <section class="Hero">
+        <section class="hero">
             <img src="images/magdalena_skyline.jpg" alt="Magdalena Skyline">
             <h1>Welcome to Magdalena del Mar</h1>
-            <button class="call" title="Join">Join our membership</button>
+            <button class="call" id="join" title="Join">
+                <a href="join.html">Join The Chamber</a>
+            </button>
         </section>
         <div class="parent">
-        
+
             <section class="card">
-                <h2 class="cardTitle" id="events">Events</h2>
-                <div class="child">
-                    <ul>
-                        <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a
-                                href="week01/media-query.html">Media Query</a> | <a
-                                href="https://codepen.io/juarpla/pen/rNRXypE">JS Pen</a></li>
-                        <li>Week 02: <a href="week01/holygrail.html">Layout</a> | <a
-                                href="week01/media-query.html">Media Query</a> | <a
-                                href="https://codepen.io/juarpla/pen/rNRXypE">JS Pen</a></li>
-                        <li>Week 03: <a href="week01/holygrail.html">Layout</a> | <a
-                                href="week01/media-query.html">Media Query</a> | <a
-                                href="https://codepen.io/juarpla/pen/rNRXypE">JS Pen</a></li>
-                        <li>Week 04: <a href="week01/holygrail.html">Layout</a> | <a
-                                href="week01/media-query.html">Media Query</a> | <a
-                                href="https://codepen.io/juarpla/pen/rNRXypE">JS Pen</a></li>
-                        <li>Week 05: <a href="week01/holygrail.html">Layout</a> | <a
-                                href="week01/media-query.html">Media Query</a> | <a
-                                href="https://codepen.io/juarpla/pen/rNRXypE">JS Pen</a></li>
-                    </ul>
+                <h2 class="cardTitle" id="titleEvents">Events</h2>
+                <div class="child" id="currentEvent">
+                    <h3>Tech Business 🖥️</h3>
+                    <p>Join us for the grand opening of two new AI business in the city. Saturday at 3:00 pm</p>
+                    <a href="discover.html">more info...</a>
                 </div>
             </section>
             <section class="card">
                 <h2 class="cardTitle">Whether</h2>
-                <div class="child" id="information">
-                    <div id="contry">Lima, Peru</div>
-                    <div id="weather">weather to develop</div>
-                    <div id="visits">visits to develop</div>
+                <div class="child" id="localWhether">
+                    <div id="contry">Lima, Peru ⛅</div>
+                    <div id="weather">Partly Cloudy</div>
+                    <div id="humidity">Humidity: 35%</div>
+                    <div id="windChill">Wind Chill: N/A</div>
                 </div>
             </section>
-            <section class="card">
-                <h2 class="cardTitle">Three company 'spotlights' advertisements</h2>
-                <article class="child" id="information">
-                    <div id="contry">Lima, Peru</div>
-                    <div id="weather">weather to develop</div>
-                    <div id="visits">visits to develop</div>
-                </article>
-                <article class="child" id="information">
-                    <div id="contry">Lima, Peru</div>
-                    <div id="weather">weather to develop</div>
-                    <div id="visits">visits to develop</div>
-                </article>
-                <article class="child" id="information">
-                    <div id="contry">Lima, Peru</div>
-                    <div id="weather">weather to develop</div>
-                    <div id="visits">visits to develop</div>
-                </article>
+            <section class="card" id="spotlightCard">
+                <h2 class="cardTitle">Members Spotlights</h2>
+                <div class="memberSpotlight">
+                    <article class="child" id="spotlight">
+                        <div id="company">☎️ Teleperformaces</div>
+                        <div id="slogan">"International Call Center"</div>
+                        <div id="contact">
+                            <ul>
+                                <li><a href="">tele@performaces.com</a></li>
+                                <li><a href="">+51 963 258 425</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="child" id="spotlight">
+                        <div id="company">💽 Ntta info</div>
+                        <div id="slogan">"Beyond code"</div>
+                        <div id="contact">
+                            <ul>
+                                <li><a href="">ntta@info.com</a></li>
+                                <li><a href="">+51 993 268 475</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="child" id="spotlight">
+                        <div id="company">🔐 Securities</div>
+                        <div id="slogan">"Your business your security"</div>
+                        <div id="contact">
+                            <ul>
+                                <li><a href="">security@securities.com</a></li>
+                                <li><a href="">+51 963 158 965</a></li>
+                                <li><a href="">website</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </section>
-            <section class="card">
+            <section class="card" id="findUs">
                 <h2 class="cardTitle"> “Networking is an investment in your business. It takes time and when done
                     correctly can yield
                     great results for years to
                     come.”</h2>
                 <p class="child">- Diane Helbig -</p>
-                <button class="call" title="Join">Find Us</button>
+                <button class="call" id="find" title="Find">
+                    <a href="https://maps.app.goo.gl/pUMYTwgqacoWDBWBA" title="We are located">Find Us</a>
+                </button>
             </section>
         </div>
     </main>
@@ -108,7 +122,6 @@
         <img src="images/chamberLogo.jpg" alt="peruvian flag">
         <div id="rights">
             <p id="copyright">© Juan Arturo Plasencia </p>
-            <img src="images/flag.jpg" alt="peruvian flag">
         </div>
         <p>WDD 230 Project</p>
         <p id="lastModified">Last Modification: to implement</p>
