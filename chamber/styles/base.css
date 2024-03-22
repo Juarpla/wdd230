@@ -146,6 +146,10 @@ h1 {
     padding: 10px;
 }
 
+#findUs {
+    padding: 20px
+}
+
 .child {
     padding: 10px;
     line-height: 2;
@@ -157,13 +161,10 @@ h1 {
 
 .call {
     padding: 10px;
-    margin: 10px;
     cursor: pointer;
     background-color: rgb(252,163,17);
     border-radius: 10px;
     font-size: 1.5rem;
-}
-.call a {
     text-decoration: none;
     color: rgb(20, 33, 61);
     font-weight: 600;
@@ -172,8 +173,8 @@ h1 {
 #join {
     position: absolute;
     top: 28%;
-    right: 28%;
-    transform: translateX(+4%);
+    right: 21%;
+    transform: translateX(+7%);
 }
 
 footer {
