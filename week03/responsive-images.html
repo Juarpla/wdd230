@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Responsive Images: srcset</title>
+    <meta name="description"
+        content="In WDD 230 - Web Frontend Development course, Juan Plasencia, created this page applying the srcset attribute to images using the picture and source elements.">
+    <meta name="author" content="Juan Plasencia">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Juan Plasencia - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/800x500/4-48661c257177c19a0f39a3991b1a7e7aa0338487.jpeg">
+    <meta property="og:url" content="https://juarpla.github.io/wdd230/week03/responsive-images.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Arequipa,Peru temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <div id="rights">
+            <p id="copyright">© 🚀 Juan Arturo Plasencia 🚀 Peru</p>
+        </div>
+        <p id="lastModified">Last Modification: to implement</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
