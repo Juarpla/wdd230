@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Small Gallery</title>
+    <meta name="description"
+        content="In WDD 230 - Web Frontend Development course, Juan Plasencia, created this small page with multiple images to scroll through as they are stacked on top of each other on a single page.">
+    <meta name="author" content="Juan Plasencia">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Juan Plasencia - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.photo.gallery/content/1.index/x3-photo-gallery-website.jpg">
+    <meta property="og:url" content="https://juarpla.github.io/wdd230/week03/lazyload.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Small Gallery lazy load</h1>
+    </header>
+    <main>
+        <img src="images/machu-picchu.webp" alt="Machu Picchu, Cuzco" loading="lazy" width="400" height="600">
+        <img src="images/chan-chan.webp" alt="Chan Chan, Trujillo" loading="lazy" width="400" height="600">
+        <img src="images/gran-pajaten.webp" alt="Gran Pajaten, San Martin" loading="lazy" width="400" height="600">
+        <img src="images/nazca-lines.webp" alt="Nazca Lines, Nazca" loading="lazy" width="400" height="600">
+        <img src="images/kuelap.webp" alt="Kuelap, Chachapoyas" loading="lazy" width="400" height="600">
+        <img src="images/chavin-de-huantar.webp" alt="Chavin de Huantar, Chavin de Huantar" loading="lazy" width="400"
+            height="600">
+    </main>
+    <footer>
+        <div id="rights">
+            <p id="copyright">© 🚀 Juan Arturo Plasencia 🚀 Peru</p>
+        </div>
+        <p id="lastModified">Last Modification: to implement</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
