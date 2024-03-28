@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Juan Plasencia Profile">
+        <img src="images/profile.webp" alt="Juan Plasencia Profile" loading="lazy" width="75" height="100">
         <span>Juan Plasencia</span>
         <div id="mode">🌙</div>
         <button id="menu" title="Menu"></button>
@@ -37,6 +37,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/trujillo-peru-temple-400.webp" media="(max-width: 400px)">
+                <img src="images/trujillo-peru-temple-960.webp" alt="Arequipa,Peru temple" loading="lazy" width="960" height="676">
+            </picture>
+            <div class="hero-label">
+                <p>Trujillo Peru Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="parent">
             <section class="card">
@@ -66,18 +75,24 @@
                     <div id="visits">visits to develop</div>
                 </div>
             </section>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9278.770867710586!2d-77.06441087965143!3d-12.095538720395737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ac8f5c5769%3A0x12a8d6933c71d1ea!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2spe!4v1711649091806!5m2!1sen!2spe"
+                    width="960" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </main>
     <footer>
         <div id="rights">
             <p id="copyright">© 🚀 Juan Arturo Plasencia 🚀 Peru</p>
-            <img src="images/flag.jpg" alt="peruvian flag">
+            <img src="images/flag.webp" alt="peruvian flag" loading="lazy" width="60" height="40">
         </div>
         <p id="lastModified">Last Modification: to implement</p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 
 </html>

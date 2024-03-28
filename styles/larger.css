@@ -1,4 +1,19 @@
 @media only screen and (min-width: 51rem) {
+
+    .hero {
+        margin: 1.5rem;
+        position: relative;
+    }
+
+    .hero-label {
+        top: 70px;
+        left: 70px;
+    }
+
+    .hero-label p {
+        font-size: 2rem;
+    }
+
     .parent {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -23,5 +38,9 @@
 
     nav a {
         display: block;
+    }
+
+    .map {
+        grid-column: 1 / 3;
     }
 }
