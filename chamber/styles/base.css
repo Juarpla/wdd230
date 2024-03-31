@@ -182,6 +182,10 @@ h1 {
     transform: translateX(+7%);
 }
 
+#calendar {
+    text-align: center;
+}
+
 footer {
     margin: 0 auto;
     text-align: center;
