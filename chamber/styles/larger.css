@@ -69,7 +69,7 @@
         display: block;
     }
 
-    h1 {
+    #heroTitle {
         background-color: rgb(229, 229, 229, 0.4);
         border-radius: 10px;
         font-size: 2rem;
@@ -79,6 +79,10 @@
         position: absolute;
         top: 1rem;
         right: 1.5rem;
+    }
+
+    #sectionTitle {
+        margin: 1rem 2vw;
     }
 
     #join {
