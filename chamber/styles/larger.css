@@ -49,6 +49,10 @@
         grid-column: 2 / 4;
     }
 
+    .photosContainer{
+        padding: 20px;
+    }
+
     .card {
         box-shadow: 1px 1px 10px black;
     }
@@ -79,10 +83,6 @@
         position: absolute;
         top: 1rem;
         right: 1.5rem;
-    }
-
-    #sectionTitle {
-        margin: 1rem 2vw;
     }
 
     #join {
