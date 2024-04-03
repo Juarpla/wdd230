@@ -1,0 +1,100 @@
+:root {
+    --back: rgba(0, 0, 0, 1);
+    --back2: rgba(0, 0, 0, 0.6);
+    --shadow: rgba(0, 0, 0, 0.5);
+    --light: rgba(255,255,255, 1);
+    --border: rgba(229,229,229,0.5);
+    --zebra: rgba(229,229,229,0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 1.1rem;
+}
+
+thead th:first-child, .corner {
+    background-color: var(--back);
+    color: var(--light);
+}
+
+th[scope="col"] {
+    background-color: var(--back2);
+    color: var(--light);
+}
+
+th {
+    padding: 15px 30px;
+    font-size: larger;
+}
+
+td {
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(1, 88, 147, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 2vw;
+}
+
+main {
+    max-width: 600px;
+}
+
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+    background-color: rgba(1, 88, 147, 255);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+#rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+#lastModified {
+    color: rgb(255, 255, 255);
+}
