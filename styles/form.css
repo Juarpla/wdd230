@@ -76,7 +76,7 @@ main {
 
 #formMessage {
     display: none;
-    visibility: none;
+    visibility: hidden;
     margin: 5px;
     padding: 0.5rem;
     color: var(--noValid);
