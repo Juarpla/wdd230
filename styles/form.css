@@ -1,21 +1,102 @@
+:root {
+    --colorOptional: rgb(255, 255, 255);
+    --shadow: rgba(0, 0, 0, 1);
+    --contrast: rgba(215, 64, 64, 0.5);
+    --light: rgb(159, 54, 54);
+    --back1: rgba(244, 238, 238, 0.6);
+    --borderField: rgba(0, 0, 0, 0.383);
+    --valid: rgb(0, 128, 0, 1);
+    --noValid: rgba(255, 0, 0, 1);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+.review fieldset{
+    margin: 2rem 0;
+    border: 0.5px solid var(--borderField);
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+.review label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--light);
+    font-size: 1rem;
+}
+
+.review input[type="text"],
+.review input[type="password"],
+.review input[type="email"] {
+    background-color: var(--back1);
+    display: block;
+    border-radius: 5px;
+    padding:  0.75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.review input[type="range"] {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.review input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--light), var(--contrast));
+    color: var(--colorOptional);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 370px;
+    margin: 2rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--shadow);
+}
+
+.review input:required {
+    border-bottom: solid 5px var(--noValid);
+}
+
+.review input:required:valid {
+    border-bottom: solid 5px var(--valid);
+}
 
 #formMessage {
+    display: none;
     visibility: none;
-    margin: 10px;
+    margin: 5px;
     padding: 0.5rem;
-    color: red;
+    color: var(--noValid);
 }
 
 #rangeValue {
     font-size: 2rem;
-    color: navy;
+    color: var(--light);
+}
+
+#rating {
+    padding-left: 5px;
+    padding-right: 17px;
 }
 
 #rangeValues {
     display: flex;
-    margin: 0 0 0 25px;
-    width: 200px;
+    margin: 0 0 0 10px;
+    width: 100%;
+    max-width: 400px;
 }
 
 #rangeValues option {
