@@ -1,0 +1,110 @@
+{
+    "weeks" : [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/juarpla/pen/rNRXypE",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "week02/bom.html",
+                    "title": "Bom"
+                },
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/juarpla/pen/oNOxGrR",
+                    "title": "Hamburger Menu"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM chapter list"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "https://codepen.io/juarpla/pen/bGJYvMR?editors=1100",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/Combinators.webp",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "week04/Form-start/index.html",
+                    "title": "Web Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/juarpla/pen/VwNQQab?editors=1100",
+                    "title": "CSS Pseudo-elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "The Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        },
+        {
+            "week": "Week 06",
+            "links": [
+                {
+                    "url": "#",
+                    "title": "#"
+                }
+            ]
+        }
+    ]
+}
