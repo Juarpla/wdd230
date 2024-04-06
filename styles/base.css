@@ -158,6 +158,10 @@ h1 {
     line-height: 2;
 }
 
+#desc {
+    text-transform: capitalize;
+}
+
 .map {
     height: 400px;
     border-radius: 10px;
@@ -193,11 +197,4 @@ footer {
 
 #lastModified {
     color: rgb(255, 255, 255);
-}
-
-/* This style will be deleted in the end */
-.error-container {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-bottom: 10px;
 }
