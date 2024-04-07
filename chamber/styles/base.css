@@ -208,7 +208,22 @@ nav .active {
 
 .wf1 label {
     display: block;
+    padding-top: 1rem;
 }
+
+.wf1 input[type="text"],
+.wf1 input[type="telephone"],
+.wf1 input[type="email"],
+.wf1 input[type="text"]
+{
+    background-color: rgb(229, 229, 229);
+    display: block;
+    border-radius: 6px;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
 
 footer {
     margin: 0 auto;
