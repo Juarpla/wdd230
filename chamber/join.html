@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magdalena del Mar Chamber of Commerce</title>
+    <meta name="description"
+        content="This is the webpage of Magdalena del Mar Chamber for a prospective member to apply to join the chamber of commerce.">
+    <meta name="author" content="Juan Plasencia">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Magdalena del Mar Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.pinimg.com/originals/77/d8/e1/77d8e197869372827ffe15b89b9eb9c4.jpg">
+    <meta property="og:url" content="https://juarpla.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/chamberLogo.webp" alt="Chamber of Commerce Logo">
+        <div id="spanHead">
+            <span>Magdalena del Mar<br></span>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div id="mode">🌙</div>
+        <button id="menu" title="Menu"></button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="sectionTitle">Join Magdalena del Mar Chamber of Commerce</h1>
+        <div id="membership">
+            <div id="formMessage"></div>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <label>First name *<input type="text" id="fname" name="fname" required></label>
+                    <label>Last name *<input type="text" id="lname" name="lname" required></label>
+                    <label>Position<input type="text" id="position" name="position" pattern="^[a-zA-Z0-9]{8,}$"></label>
+                    <label>Email address *<input type="email" id="email" name="email" placeholder="example@example.com" required></label>
+                    <label>Mobile phone number *<input type="telephone" id="phone" name="phone" required></label>
+                    <label>Business name *<input type="text" id="business" name="business" required></label>
+                    <label>
+                        Membership level<select name="level">
+                            <option value="">Please Select &#9662</option>
+                            <option value="nonProfit">Non profit organizations</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label>Business description<input type="text" id="description" name="description"></label>
+                    <label>timestamp<input type="hidden" id="timestamp" name="timestamp"></label>
+                    <input type="submit" value="Send my application">
+                </fieldset>
+            </form>
+            <section id="benefits">
+                <h2>Membership level benefits</h2>
+                <article>
+                    <h3>Non profit organizations</h2>
+                    <h4>Special events</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Advertising</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Event discounts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                </article>
+                <article>
+                    <h3>Bronze Membership</h2>
+                    <h4>Special events</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Advertising</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Event discounts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                </article>
+                <article>
+                    <h3>Silver Membership</h2>
+                    <h4>Special events</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Advertising</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Event discounts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                </article>
+                <article>
+                    <h3>Gold Membership</h2>
+                    <h4>Special events</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Advertising</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                    <h4>Event discounts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>info@magdalenacc.org</p>
+        <p>+51 926 037 180</p>
+        <img src="images/chamberLogo.webp" alt="peruvian flag">
+        <div id="rights">
+            <p id="copyright">© Juan Arturo Plasencia </p>
+        </div>
+        <p>WDD 230 Project</p>
+        <p id="lastModified">Last Modification: to implement</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+
+</html>
