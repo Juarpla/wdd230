@@ -215,7 +215,8 @@ nav .active {
 .wf1 input[type="tel"],
 .wf1 input[type="email"],
 .wf1 input[type="text"],
-.wf1 select
+.wf1 select,
+.wf1 textarea
 {
     background-color: rgb(229, 229, 229);
     display: block;
@@ -250,7 +251,7 @@ nav .active {
 }
 
 .wf1 input:required {
-    border-bottom: solid 2px rgb(252, 163, 17);
+    border-bottom: solid 4px rgb(252, 163, 17);
 }
 
 .wf1 input:required:valid {
