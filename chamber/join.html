@@ -43,16 +43,20 @@
         <h1 id="sectionTitle">Join Magdalena del Mar Chamber of Commerce</h1>
         <div class="parent">
             <div class="card" id="form">
-                <h2>Registration Form</h2>
+                <h2 class="cardTitle">Registration Form</h2>
                 <div id="formMessage"></div>
                 <form method="get" action="thankyou.html">
-                    <fieldset>
+                    <fieldset class="child">
+                        <legend>Employee Information</legend>
                         <label>First name *<input type="text" id="fname" name="fname" required></label>
                         <label>Last name *<input type="text" id="lname" name="lname" required></label>
                         <label>Position<input type="text" id="position" name="position" pattern="^[a-zA-Z0-9]{8,}$"></label>
                         <label>Email address *<input type="email" id="email" name="email" placeholder="example@example.com"
                                 required></label>
                         <label>Mobile phone number *<input type="telephone" id="phone" name="phone" required></label>
+                    </fieldset>
+                    <fieldset class="child">
+                        <legend>Business Information</legend>
                         <label>Business name *<input type="text" id="business" name="business" required></label>
                         <label>
                             Membership level<select name="level">
@@ -65,13 +69,14 @@
                         </label>
                         <label>Business description<input type="text" id="description" name="description"></label>
                         <label>timestamp<input type="hidden" id="timestamp" name="timestamp"></label>
-                        <input type="submit" value="Send my application">
                     </fieldset>
+
+                    <input type="submit" value="Send my application">
                 </form>
             </div>
             <section class="card" id="benefits">
-                <h2>Membership level benefits</h2>
-                <article>
+                <h2 class="cardTitle">Membership level benefits</h2>
+                <article class="child">
                     <h3>Non profit organizations</h2>
                     <h4>Special events</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
@@ -82,7 +87,7 @@
                     <h4>Event discounts</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
                 </article>
-                <article>
+                <article class="child">
                     <h3>Bronze Membership</h2>
                     <h4>Special events</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
@@ -93,7 +98,7 @@
                     <h4>Event discounts</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
                 </article>
-                <article>
+                <article class="child">
                     <h3>Silver Membership</h2>
                     <h4>Special events</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
@@ -104,7 +109,7 @@
                     <h4>Event discounts</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
                 </article>
-                <article>
+                <article class="child">
                     <h3>Gold Membership</h2>
                     <h4>Special events</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, doloremque.</p>
