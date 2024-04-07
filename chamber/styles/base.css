@@ -212,7 +212,7 @@ nav .active {
 }
 
 .wf1 input[type="text"],
-.wf1 input[type="telephone"],
+.wf1 input[type="tel"],
 .wf1 input[type="email"],
 .wf1 input[type="text"],
 .wf1 select
@@ -247,6 +247,14 @@ nav .active {
 
 .wf1 input[type="submit"]:hover {
     cursor: pointer;
+}
+
+.wf1 input:required {
+    border-bottom: solid 2px rgb(252, 163, 17);
+}
+
+.wf1 input:required:valid {
+    border-bottom: dotted 2px rgb(118, 118, 118);
 }
 
 footer {
