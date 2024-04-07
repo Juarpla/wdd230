@@ -41,31 +41,35 @@
     </nav>
     <main>
         <h1 id="sectionTitle">Join Magdalena del Mar Chamber of Commerce</h1>
-        <div id="membership">
-            <div id="formMessage"></div>
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <label>First name *<input type="text" id="fname" name="fname" required></label>
-                    <label>Last name *<input type="text" id="lname" name="lname" required></label>
-                    <label>Position<input type="text" id="position" name="position" pattern="^[a-zA-Z0-9]{8,}$"></label>
-                    <label>Email address *<input type="email" id="email" name="email" placeholder="example@example.com" required></label>
-                    <label>Mobile phone number *<input type="telephone" id="phone" name="phone" required></label>
-                    <label>Business name *<input type="text" id="business" name="business" required></label>
-                    <label>
-                        Membership level<select name="level">
-                            <option value="">Please Select &#9662</option>
-                            <option value="nonProfit">Non profit organizations</option>
-                            <option value="bronze">Bronze Membership</option>
-                            <option value="silver">Silver Membership</option>
-                            <option value="gold">Gold Membership</option>
-                        </select>
-                    </label>
-                    <label>Business description<input type="text" id="description" name="description"></label>
-                    <label>timestamp<input type="hidden" id="timestamp" name="timestamp"></label>
-                    <input type="submit" value="Send my application">
-                </fieldset>
-            </form>
-            <section id="benefits">
+        <div class="parent">
+            <div class="card" id="form">
+                <h2>Registration Form</h2>
+                <div id="formMessage"></div>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <label>First name *<input type="text" id="fname" name="fname" required></label>
+                        <label>Last name *<input type="text" id="lname" name="lname" required></label>
+                        <label>Position<input type="text" id="position" name="position" pattern="^[a-zA-Z0-9]{8,}$"></label>
+                        <label>Email address *<input type="email" id="email" name="email" placeholder="example@example.com"
+                                required></label>
+                        <label>Mobile phone number *<input type="telephone" id="phone" name="phone" required></label>
+                        <label>Business name *<input type="text" id="business" name="business" required></label>
+                        <label>
+                            Membership level<select name="level">
+                                <option value="">Please Select &#9662</option>
+                                <option value="nonProfit">Non profit organizations</option>
+                                <option value="bronze">Bronze Membership</option>
+                                <option value="silver">Silver Membership</option>
+                                <option value="gold">Gold Membership</option>
+                            </select>
+                        </label>
+                        <label>Business description<input type="text" id="description" name="description"></label>
+                        <label>timestamp<input type="hidden" id="timestamp" name="timestamp"></label>
+                        <input type="submit" value="Send my application">
+                    </fieldset>
+                </form>
+            </div>
+            <section class="card" id="benefits">
                 <h2>Membership level benefits</h2>
                 <article>
                     <h3>Non profit organizations</h2>
