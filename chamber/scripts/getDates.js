@@ -8,6 +8,3 @@ copyright.innerText = `© ${currentYear} Juan Arturo Plasencia`;
 
 let modified = document.querySelector("#lastModified");
 modified.innerText = `Last Modification: ${lastModified}`;
-
-let events = document.querySelector("#titleEvents");
-events.innerText = `Events in ${currentMonth}`;
