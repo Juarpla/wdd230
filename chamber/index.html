@@ -57,11 +57,18 @@
             </section>
             <section class="card">
                 <h2 class="cardTitle">Whether</h2>
-                <div class="child" id="localWhether">
-                    <div id="contry">Lima, Peru ⛅</div>
-                    <div id="weather">Partly Cloudy</div>
-                    <div id="humidity">Humidity: 35%</div>
-                    <div id="windChill">Wind Chill: N/A</div>
+                <div class="child">
+                    <div id="weather-container">
+                        <h3>Current Weather</h2>
+                        <p>Temperature: <span id="current-temperature"></span></p>
+                        <p>Description: <span id="weather-description"></span></p>
+                        <h3>3-Day Forecast</h3>
+                        <ul>
+                            <li>01 Day latter: <span class="forecast-temp"></span></li>
+                            <li>02 Days latter: <span class="forecast-temp"></span></li>
+                            <li>03 Days latter: <span class="forecast-temp"></span></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="card" id="spotlightCard">
@@ -125,6 +132,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/weather.js" type="module"></script>
 </body>
 
 </html>
