@@ -2,7 +2,7 @@
     "companies": [
         {
             "name": "Vila Chicken",
-            "address": "Javier Prado 410",
+            "address": "Javier Prado Oeste 410",
             "phoneNumber": "96321578",
             "website": "https://villachicken.com.pe/",
             "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
@@ -10,58 +10,58 @@
             "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
         },
         {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
+            "name": "Vivanda",
+            "address": "Av. Javier Prado Oeste 999",
+            "phoneNumber": "01 620 3000",
+            "website": "https://www.vivanda.com.pe/",
+            "image": "https://portal.andina.pe/EDPfotografia2/Thumbnail/2008/07/22/000068097W.jpg",
+            "membershipLevel": "bronze",
+            "description": "Vivanda is more than a supermarket, it is an innovative space with exclusive and high-quality products, oriented to the requirements of our customers, who seek to live new experiences to enjoy the freshness of life to the fullest."
+        },
+        {
+            "name": "MiFarma",
+            "address": "Javier Prado Oeste 661",
+            "phoneNumber": "01 612 5000",
+            "website": "https://www.mifarma.com.pe/",
             "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
             "membershipLevel": "silver",
             "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
         },
         {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
-            "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
-            "membershipLevel": "silver",
-            "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
+            "name": "NTT DATA Peru",
+            "address": "Javier Prado Oeste 2501",
+            "phoneNumber": "+51 12038200",
+            "website": "https://pe.nttdata.com/",
+            "image": "https://stakeholders.com.pe/wp-content/uploads/2023/10/oficinas-ntt-data-brasil-1-e1704763134167.jpg",
+            "membershipLevel": "golden",
+            "description": "We transform companies, anticipating the future."
         },
         {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
+            "name": "Toulouse Lautrec",
+            "address": "Javier Prado Oeste 980",
+            "phoneNumber": "01 617 2400",
+            "website": "https://www.toulouselautrec.edu.pe/",
             "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
-            "membershipLevel": "silver",
-            "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
+            "membershipLevel": "golden",
+            "description": "Here you begin the dream of living from your ideas."
         },
         {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
+            "name": "Securitas Peru",
+            "address": "Javier Prado Oeste 757",
+            "phoneNumber": "01 6103030",
+            "website": "https://www.securitasperu.com/",
             "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
             "membershipLevel": "silver",
-            "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
+            "description": "Protection Services for Companies."
         },
         {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
+            "name": "Patipan",
+            "address": "Javier Prado Oeste 355",
+            "phoneNumber": "01 449 2000",
+            "website": "https://pastipan.com.pe/",
             "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
-            "membershipLevel": "silver",
-            "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
-        },
-        {
-            "name": "Vila Chicken",
-            "address": "Javier Prado 410",
-            "phoneNumber": "96321578",
-            "website": "https://villachicken.com.pe/",
-            "image": "https://portal.villachicken.com.pe/api/img/Locales/VCH-JAVIER-PRADO.png",
-            "membershipLevel": "silver",
-            "description": "We are a chain of wood-fired chickens, in the process of expansion with more than 10 years in the market and a variant of the classic flavor of wood-fired chicken provided by the firewood used in our processes."
+            "membershipLevel": "bronze",
+            "description": "Everything you like most at the best price."
         }
     ]
 }
