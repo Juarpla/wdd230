@@ -15,6 +15,10 @@
         column-gap: 10px;
     }
 
+    #directory {
+        display: block;
+    }
+
     .photosContainer img:hover {
         border-radius: 20px 150px;
     }

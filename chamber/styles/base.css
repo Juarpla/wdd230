@@ -137,7 +137,7 @@ nav .active {
     margin: 1rem 2vw;
 }
 
-.parent img{
+.parent img {
     width: 100%;
     height: 100%;
 }
@@ -216,8 +216,7 @@ nav .active {
 .wf1 input[type="email"],
 .wf1 input[type="text"],
 .wf1 select,
-.wf1 textarea
-{
+.wf1 textarea {
     background-color: rgb(229, 229, 229);
     display: block;
     border-radius: 6px;
@@ -232,8 +231,7 @@ nav .active {
     cursor: pointer;
 }
 
-.wf1 input[type="submit"]
-{
+.wf1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(rgb(252, 163, 17), rgba(99, 50, 24, 1));
     color: rgb(255, 255, 255);
@@ -256,6 +254,66 @@ nav .active {
 
 .wf1 input:required:valid {
     border-bottom: dotted 2px rgb(118, 118, 118);
+}
+
+.menu {
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: rgb(252, 163, 17);
+    text-align: center;
+}
+
+.menu button {
+    color: rgb(20, 33, 61);
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h2 {
+    font-size: 1.2rem;
+    align-self: center;
+}
+
+.list section:nth-child(even) {
+    background-color: rgb(229, 229, 229);
 }
 
 footer {

@@ -1,35 +1,56 @@
-const information = "chamber/data/members.json";
-const cards = document.querySelector('#cards');
+const information = "data/members.json";
+const cards = document.querySelector(".grid");
 
-const getMembers = () => {
-    const response = fetch(url);
-    const data = response.json();
-    //console.table(data.prophets);
-    displayMembers(data.prophets);
-}
+const getMembers = async () => {
+    try {
+        const response = await fetch(information);
+        const data = await response.json();
+        //console.table(data);
+        displayMembers(data);
+    } catch (error) {
+        console.error("Error fetching members:", error);
+    }
+};
 
-const displayMembers = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayMembers = (data) => {
+    let membersList = data.companies;
+    membersList.forEach((member) => {
         let card = document.createElement("section");
-        let fullName = document.createElement("h2");
-        let dateBirth = document.createElement("p");
-        let placeBirth = document.createElement("p");
+        card.classList.add("card", "id");
+
+        let cardTitle = document.createElement("h2");
+        cardTitle.classList.add("cardTitle");
+        cardTitle.textContent = member.name;
+
+        let child = document.createElement("div");
+        child.classList.add("child");
+
         let portrait = document.createElement("img");
+        portrait.src = member.image;
+        portrait.alt = `Portrait of ${member.name} at ${member.address}`;
+        portrait.loading = "lazy";
+        portrait.width = "340";
+        portrait.height = "360";
 
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
-        dateBirth.textContent = `Date of Birth: ${prophet.birthdate}`;
-        placeBirth.textContent = `Place of Birth: ${prophet.birthplace}`;
+        let address = document.createElement("p");
+        address.id = "address";
+        address.textContent = member.address;
 
-        portrait.setAttribute('src', `${prophet.imageurl}`);
-        portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
-        portrait.setAttribute("loading", "lazy");
-        portrait.setAttribute("width", "340");
-        portrait.setAttribute("height", "440");
+        let telephone = document.createElement("p");
+        telephone.id = "telephone";
+        telephone.textContent = member.phoneNumber;
 
-        card.appendChild(fullName);
-        card.appendChild(dateBirth);
-        card.appendChild(placeBirth);
-        card.appendChild(portrait);
+        let webPage = document.createElement("a");
+        webPage.href = member.website;
+        webPage.textContent = "Website";
+
+        child.appendChild(portrait);
+        child.appendChild(address);
+        child.appendChild(telephone);
+        child.appendChild(webPage);
+
+        card.appendChild(cardTitle);
+        card.appendChild(child);
 
         cards.appendChild(card);
     });
