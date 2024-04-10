@@ -1,9 +1,5 @@
 import API_KEY from "../../scripts/config.js";
 
-const currentTemp = document.querySelector("#current-temp");
-const weatherIcon = document.querySelector("#weather-icon");
-const captionDesc = document.querySelector("figcaption");
-
 const lat = "-12.09";
 const lon = "-77.06";
 const api_key = API_KEY;
